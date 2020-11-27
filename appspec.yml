@@ -1,7 +1,6 @@
 version: 0.0
 os: linux
 files:
-<<<<<<< HEAD
   - source: /index.php
     destination: /var/www/html/index.php
 hooks:
@@ -16,9 +15,3 @@ hooks:
     - location: scripts/stop_server
       timeout: 400
       runas: root
-=======
- - source: /www
-   destination: /var/www/html/www
- - source: /index.php
-   destination: /var/www/html/index.php
->>>>>>> 63269fabc7c0a9f4881736d8d44fab95251ab1f1
