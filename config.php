@@ -13,8 +13,8 @@ $conn = mysql_connect("localhost","root","root")
  * using mysqli_connect instead
  */
 
-$databaseHost = 'test.cp0j8kjw11ud.us-east-1.rds.amazonaws.com';
-$databaseName = 'testneha';
+$databaseHost = 'testneha.cp0j8kjw11ud.us-east-1.rds.amazonaws.com';
+$databaseName = 'test';
 $databaseUsername = 'neha';
 $databasePassword = '12345678';
 
