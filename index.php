@@ -12,7 +12,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC"); // usin
 	<title>HomePage</title>
 </head>
 
-<body style="background-image: url('180829-Crown-Perth-Hotels-Crown-Towers-515x280.jpg');background-repeat : no-repeat;background-size : cover">
+<body style="background-color:darkcyan">
 <a href="add.html" style="color:white;font-weight:900">Add New Booking</a><br/><br/>
 
 	<table width='80%' border=0>
