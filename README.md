@@ -1,4 +1,4 @@
-Hotel-Management-System
+Hotel-Reservation-System
 
 About system
 This application built in PHP, HTML, and CSS.
