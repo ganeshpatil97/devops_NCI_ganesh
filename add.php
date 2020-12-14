@@ -3,7 +3,7 @@
 	<title>Add Booking</title>
 </head>
 
-<body style="background-image: url('180829-Crown-Perth-Hotels-Crown-Towers-515x280.jpg');background-repeat : no-repeat;background-size : cover">
+<body style="background-color:darkcyan">
 <?php
 //including the database connection file
 include_once("config.php");

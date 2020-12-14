@@ -53,7 +53,7 @@ while($res = mysqli_fetch_array($result))
 	<title>Edit Data</title>
 </head>
 
-<body  style="background-image: url('180829-Crown-Perth-Hotels-Crown-Towers-515x280.jpg');background-repeat : no-repeat;background-size : cover">
+<body  style="background-color:darkcyan">
 	<a href="index.php" style="color:white;font-weight:900">Home</a>
 	<br/><br/>
 	

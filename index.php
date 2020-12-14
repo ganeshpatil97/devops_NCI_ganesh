@@ -19,7 +19,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC"); // usin
     <tbody style="background-color: white; box-shadow: 110px black;border: 1px solid white;padding: 10px;box-shadow: 5px 10px #888888;">
 	<tr bgcolor='#CCCCCC'>
 		<td>Name</td>
-		<td>No of people</td>
+		<td>No of people</td>   
 		<td>Email</td>
 		<td>Update</td>
 	</tr>
