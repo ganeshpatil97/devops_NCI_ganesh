@@ -1,9 +1,9 @@
 <html>
 <head>
-	<title>Add Data</title>
+	<title>Add Booking</title>
 </head>
 
-<body>
+<body style="background-image: url('180829-Crown-Perth-Hotels-Crown-Towers-515x280.jpg');background-repeat : no-repeat;background-size : cover">
 <?php
 //including the database connection file
 include_once("config.php");
@@ -37,8 +37,8 @@ if(isset($_POST['Submit'])) {
 		$result = mysqli_query($mysqli, "INSERT INTO users(name,age,email) VALUES('$name','$age','$email')");
 		
 		//display success message
-		echo "<font color='green'>Data added successfully.";
-		echo "<br/><a href='index.php'>View Result</a>";
+		echo "<style='color=white;font-weight:900'>Booking added successfully.";
+		echo "<br/><a href='index.php' style='color:white;font-weight:900'>View Result</a>";
 	}
 }
 ?>

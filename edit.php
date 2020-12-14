@@ -53,18 +53,19 @@ while($res = mysqli_fetch_array($result))
 	<title>Edit Data</title>
 </head>
 
-<body>
-	<a href="index.php">Home</a>
+<body  style="background-image: url('180829-Crown-Perth-Hotels-Crown-Towers-515x280.jpg');background-repeat : no-repeat;background-size : cover">
+	<a href="index.php" style="color:white;font-weight:900">Home</a>
 	<br/><br/>
 	
 	<form name="form1" method="post" action="edit.php">
 		<table border="0">
+		<tbody style="background-color: white; box-shadow: 110px black;border: 1px solid white;padding: 10px;box-shadow: 5px 10px #888888;">
 			<tr> 
 				<td>Name</td>
 				<td><input type="text" name="name" value="<?php echo $name;?>"></td>
 			</tr>
 			<tr> 
-				<td>Age</td>
+				<td>No of people</td>
 				<td><input type="text" name="age" value="<?php echo $age;?>"></td>
 			</tr>
 			<tr> 
@@ -75,6 +76,7 @@ while($res = mysqli_fetch_array($result))
 				<td><input type="hidden" name="id" value=<?php echo $_GET['id'];?>></td>
 				<td><input type="submit" name="update" value="Update"></td>
 			</tr>
+</tbody>
 		</table>
 	</form>
 </body>
