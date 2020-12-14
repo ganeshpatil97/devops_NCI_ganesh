@@ -1,6 +1,7 @@
 Hotel-Reservation-System
 
 About system
+*************************************************************************************************************************************
 This application built in PHP, HTML, and CSS.
 
 *************************************************************************************************************************************
@@ -47,3 +48,5 @@ STEP VIII : Select host provider as AWS elastic beanstalk in AWS CodePipeline
 STEP IX   : Select the AWS elastic beanstalk environment
 STEP X    : Create AWS CodePipeline 
 STEP XI   : Click on URL Of elastic beanstalk, and you are ready to host.
+
+*************************************************************************************************************************************
