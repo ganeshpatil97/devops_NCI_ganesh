@@ -8,7 +8,7 @@ $conn = mysql_connect("localhost","root","root")
 @mysql_select_db("test",$conn);
 */
 
-/**
+/**	
  * mysql_connect is deprecated
  * using mysqli_connect instead
  */
