@@ -1,0 +1,48 @@
+package hotelmanagement;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class hotel {
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\35389\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		String baseUrl = "http://localhost/devops_NCI_Neha/index.php";
+		driver.get(baseUrl);
+		driver.manage().window().maximize();
+		
+		// Add New Customer-
+		driver.findElement(By.linkText("Insert New Booking")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.name("name")).sendKeys("Jack Jonas");
+		Thread.sleep(2000);
+		driver.findElement(By.id("Numberofpeople")).sendKeys("5");
+		Thread.sleep(2000);
+		driver.findElement(By.name("email")).sendKeys("jack@gmail.com");
+		Thread.sleep(2000);
+		driver.findElement(By.name("Submit")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.linkText("View Result")).click();
+		Thread.sleep(2000);
+		
+		// Edit Customer
+		driver.findElement(By.linkText("Edit")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("Numberofpeople")).clear();
+		driver.findElement(By.id("Numberofpeople")).sendKeys("6");
+		Thread.sleep(2000);
+		driver.findElement(By.name("update")).click();
+		Thread.sleep(2000);
+		
+		// Delete Customer
+		driver.findElement(By.linkText("Delete")).click();
+		Thread.sleep(2000);
+		driver.switchTo().alert().accept();
+		Thread.sleep(2000);
+		driver.close();
+		System.exit(0);
+
+	}
+}
