@@ -8,7 +8,7 @@ This application built in PHP, HTML, and CSS.
 ***How To Run The Project on local machine***
 
 Pre-requisites :
-1.Clone the respository from URL "https://github.com/Nehadeshpande89/devops_NCI_Neha.git"
+1.Clone the respository from URL "https://github.com/ganeshpatil97/devops_NCI_ganesh.git"
 2.Install PHP on your local machine
 3.Install Xampp on your machine
 
@@ -21,7 +21,7 @@ STEP IV  : Copy the project folder
 STEP V   : Paste in xampp/htdocs/
 STEP VI  : Import the database.sql file into phpMyAdmin
 After creating database 
-STEP VII : Open a browser and Run using URL "http://localhost/devOps_NCI_Neha"
+STEP VII : Open a browser and Run using URL "http://localhost/devOps_NCI_ganesh"
 
 *************************************************************************************************************************************
 
@@ -32,7 +32,7 @@ Pre-requisits :
 1.You must have AWS account
 2.You must have Mysql Workbench 
 3.You must have git installed on your local machine
-4.Clone the respository from URL "https://github.com/Nehadeshpande89/devops_NCI_Neha.git" 
+4.Clone the respository from URL "https://github.com/ganeshpatil97/devops_NCI_ganesh.git" 
 
 *************************************************************************************************************************************
 ***Steps to follow***
